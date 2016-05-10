@@ -1,0 +1,51 @@
+body {
+	font-family: "Comic Sans MS", Helvetica, sans-serif;
+}
+
+nav a {
+	font-size: 20px;
+}
+
+a {
+	color: blue;
+}
+
+a:hover {
+	color: #dddd00;
+}
+
+a:visited {
+	color: #ff0000;
+}
+
+h1 {
+	background-color: #eeee00;
+}
+
+h2 {
+	background-color: #ee00ee;
+}
+
+h3 {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+p.fancy {
+	font-style: italic;
+}
+
+p.larger {
+	font-size: 16px;
+}
+
+p#important {
+	text-decoration: underline;
+	text-decoration-color: red;
+}
+
+img#troll:hover {
+	-ms-transform: translate(500px,0px); /* IE 9 */
+    -webkit-transform: translate(500px,0px); /* Safari */
+    transform: translate(500px,0px);
+}
